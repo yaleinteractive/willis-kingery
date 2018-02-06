@@ -38,20 +38,20 @@ while ($counter <= $number) {
 ?>
 
 Goodbye. -->
-
+<p>Hello
 <?php
 	$peace = "✌";
 	$hi = "✋";
 	$thumb = "👍";
+	$name = $_GET['name'];
 	$counter = 1;
 
-	while ($counter <= 10000) {
-			echo "$peace" . "$hi" . "$thumb";
+	while ($counter <= 440) {
+			echo "$peace $hi $thumb $name";
 			$counter ++;
 		}	
 ?>
-
-<p>Hello</p>
+ Goodbye</p>
 
 </body>
 </html>
